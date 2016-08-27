@@ -46,6 +46,7 @@ def utility(winner):
 		return 0
 
 # this is where all the action happens
+# It returns a tuple (utility value, best move)
 def minimax(state, turn):
 	print max_value(state, turn, 0)
 
